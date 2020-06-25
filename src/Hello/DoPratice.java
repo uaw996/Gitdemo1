@@ -23,7 +23,7 @@ public class DoPratice {
 		Select select1 = new Select(driver.findElement(By.id("month")));
 		select1.selectByVisibleText("Feb");
 		Select select2 = new Select(driver.findElement(By.xpath("//*[contains@title,'year']")));
-		select2.selectByIndex(1992);
+		select2.selectByIndex(1991);
 		
 		
 	}
