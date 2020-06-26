@@ -34,7 +34,7 @@ public class Basic {
 		//driver.findElement(By.linkText("Forgotten account?")).click();
 		driver.findElement(By.cssSelector("#u_0_o")).sendKeys("umesh");
 		driver.findElement(By.xpath("//input[@id=\"u_0_r\"]")).sendKeys("inspire");
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		driver.close();
 		
 		
